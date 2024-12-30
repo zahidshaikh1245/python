@@ -1,0 +1,7 @@
+def inverted_right_half_pyramid(n):
+    for i in range(n, 0, -1):
+        # Print leading spaces followed by stars
+        print(' ' * (n - i) + '*' * i)
+
+# Example: Generate an inverted right half pyramid of height 5
+inverted_right_half_pyramid(5)
